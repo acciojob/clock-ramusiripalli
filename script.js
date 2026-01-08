@@ -1,2 +1,6 @@
 //your JS code here. If required.
-document.getElementById("timer").innerHTML = Date();
+
+
+setInterval(()=>{
+	document.getElementById("timer").innerHTML = new Date().toLocaleString();
+},1000)
